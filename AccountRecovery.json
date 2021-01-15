@@ -6,19 +6,6 @@
     "description": "This service domain handles the restructuring of a distressed account (loan) after standard recovery"
   },
   "host": "bianorg.azure-api.net",
-  "basePath": "/sd-account-recovery/account-recoveryv2",
-  "securityDefinitions": {
-    "apiKeyHeader": {
-      "type": "apiKey",
-      "name": "Ocp-Apim-Subscription-Key",
-      "in": "header"
-    }
-  },
-  "security": [
-    {
-      "apiKeyHeader": []
-    }
-  ],
   "schemes": [
     "https"
   ],
