@@ -27,7 +27,7 @@
           {
             "in": "body",
             "name": "body",
-            "description": "SDAccountRecovery Request Payload",
+            "description": "SDAccountRecovery Request Payload 1",
             "required": true,
             "schema": {
               "type": "object",
