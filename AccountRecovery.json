@@ -5,7 +5,9 @@
     "title": "Account Recovery",
     "description": "This service domain handles the restructuring of a distressed account (loan) after standard recovery"
   },
-  "host": "bianorg.azure-api.net",
+  "host": "virtserver.swaggerhub.com",
+  "basePath": "/BIAN-3/AccountRecovery/2.0.0",
+  
   "schemes": [
     "https"
   ],
@@ -508,7 +510,12 @@
                         "activityAnalysisReport": {
                           "type": "object",
                           "description": "`status: Not Mapped`\n core-data-type-reference: BIAN::DataTypesLibrary::CoreDataTypes::UNCEFACT::Binary\n general-info: The activity analysis report in any suitable form including selection filters where appropriate\n",
-                          "properties": {}
+                          "properties": {
+                            "activityAnalysisReportID": {
+                              "type": "123456",
+                              "description": "`status: Not Mapped`\n core-data-type-reference: BIAN::DataTypesLibrary::CoreDataTypes::UNCEFACT::Text\n general-info: The results of the activity analysis that can be on-going, periodic and actual and projected\n"
+                            }
+                          }
                         }
                       }
                     },
