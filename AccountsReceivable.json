@@ -203,7 +203,7 @@
                 },
                 "accountsReceivableServicingSessionReference": {
                   "type": "string",
-                  "example": "SSSR764367-new",
+                  "example": "SSSR764367",
                   "description": "`status: Not Mapped`\n core-data-type-reference: BIAN::DataTypesLibrary::CoreDataTypes::ISO20022andUNCEFACT::Identifier\n general-info: Reference to the active servicing session\n"
                 },
                 "accountsReceivableServiceReference": {
