@@ -2,7 +2,7 @@
   "swagger": "2.0",
   "info": {
     "version": "2.0.0",
-    "title": "account-recoveryv2",
+    "title": "Account Recovery",
     "description": "This service domain handles the restructuring of a distressed account (loan) after standard recovery"
   },
   "host": "bianorg.azure-api.net",
