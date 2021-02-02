@@ -686,6 +686,11 @@
                           "example": "746224",
                           "description": "`status: Not Mapped`\n core-data-type-reference: BIAN::DataTypesLibrary::CoreDataTypes::ISO20022andUNCEFACT::Identifier\n general-info: Reference to the payer \n"
                         },
+                        "payerName": {
+                          "type": "string",
+                          "example": "John Smith",
+                          "description": "`status: Not Mapped`\n core-data-type-reference: BIAN::DataTypesLibrary::CoreDataTypes::ISO20022andUNCEFACT::Identifier\n general-info: Reference to the payer' name \n"
+                        },
                         "payerBankReference": {
                           "type": "string",
                           "example": "727419",
